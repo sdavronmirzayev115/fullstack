@@ -1,0 +1,120 @@
+.signup-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.signup-box {
+  max-width: 350px;
+  width: 100%;
+}
+
+.signup-header {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px 8px 0 0;
+  padding: 40px 40px 20px;
+  text-align: center;
+}
+
+.instagram-text-logo {
+  font-family: "Grand Hotel", cursive, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #262626;
+  margin-bottom: 16px;
+  user-select: none;
+}
+
+.signup-subtitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #8e8e8e;
+  line-height: 24px;
+  margin: 0;
+}
+
+.signup-form {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 20px 40px 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fafafa;
+  margin-bottom: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #0095f6;
+  background: #fff;
+}
+
+.signup-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 12px;
+  text-align: center;
+  border: 1px solid #ef9a9a;
+}
+
+.signup-footer {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #262626;
+}
+
+.signup-footer .link {
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.signup-footer .link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .signup-header,
+  .signup-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .instagram-text-logo {
+    font-size: 40px;
+  }
+
+  .signup-subtitle {
+    font-size: 14px;
+  }
+}

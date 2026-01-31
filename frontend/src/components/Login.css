@@ -1,0 +1,108 @@
+.login-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fafafa;
+  padding: 20px;
+}
+
+.login-box {
+  max-width: 350px;
+  width: 100%;
+}
+
+.login-header {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 40px 40px 20px;
+  text-align: center;
+}
+
+.instagram-text-logo {
+  font-family: "Grand Hotel", cursive, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  color: #262626;
+  margin-bottom: 24px;
+  user-select: none;
+}
+
+.login-form {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-top: none;
+  border-radius: 0 0 8px 8px;
+  padding: 20px 40px 40px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #dbdbdb;
+  border-radius: 6px;
+  font-size: 14px;
+  background: #fafafa;
+  margin-bottom: 8px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.input-field:focus {
+  border-color: #0095f6;
+  background: #fff;
+}
+
+.login-btn {
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.error-message {
+  background: #ffebee;
+  color: #c62828;
+  padding: 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  margin-bottom: 12px;
+  text-align: center;
+  border: 1px solid #ef9a9a;
+}
+
+.login-footer {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 12px;
+  text-align: center;
+  font-size: 14px;
+  color: #262626;
+}
+
+.login-footer .link {
+  color: #0095f6;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-footer .link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  .login-header,
+  .login-form {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .instagram-text-logo {
+    font-size: 40px;
+  }
+}
