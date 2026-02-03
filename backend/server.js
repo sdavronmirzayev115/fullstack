@@ -242,7 +242,6 @@ const authController = {
         process.env.JWT_SECRET || "your_jwt_secret_key_change_this",
         { expiresIn: "30d" }
       );
-
       res.status(201).json({
         success: true,
         message: "User created successfully",
